@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TrendWear - Premium Fashion Store</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+
+    <header>
+        <nav class="navbar" role="navigation" aria-label="Main navigation">
+            <div class="nav-container">
+                <div class="logo">
+
+                    <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDAiIGhlaWdodD0iNDAiIHZpZXdCb3g9IjAgMCA0MCA0MCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPGNpcmNsZSBjeD0iMjAiIGN5PSIyMCIgcj0iMjAiIGZpbGw9IiM2MzY2ZjEiLz4KPHRleHQgeD0iMTIiIHk9IjI4IiBmb250LWZhbWlseT0iUG9wcGlucywgc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxOCIgZm9udC13ZWlnaHQ9IjYwMCIgZmlsbD0id2hpdGUiPlRXPC90ZXh0Pgo8L3N2Zz4K"
+                        alt="TrendWear Logo" width="40" height="40">
+                    <span>TrendWear</span>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#products">Products</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main id="main-content">
+
+        <section class="hero" id="home">
+            <div class="hero-content">
+                <h1 class="hero-title">Discover Your Style</h1>
+                <p class="hero-subtitle">Premium fashion for modern lifestyles. Shop now and elevate your wardrobe.</p>
+                <a href="#products" class="cta-button">Shop Collection</a>
+            </div>
+        </section>
+
+        <section class="products-section" id="products">
+            <div class="container">
+                <h2 class="section-title">Featured Products</h2>
+
+                <div class="products-layout">
+                    <aside class="filters-sidebar">
+                        <h3>Filters</h3>
+                        <div class="filter-group">
+                            <h4>Category</h4>
+                            <ul>
+                                <li><label><input type="checkbox"> Tops</label></li>
+                                <li><label><input type="checkbox"> Bottoms</label></li>
+                                <li><label><input type="checkbox"> Outerwear</label></li>
+                            </ul>
+                        </div>
+                        <div class="filter-group">
+                            <h4>Size</h4>
+                            <ul>
+                                <li><label><input type="checkbox"> S</label></li>
+                                <li><label><input type="checkbox"> M</label></li>
+                                <li><label><input type="checkbox"> L</label></li>
+                                <li><label><input type="checkbox"> XL</label></li>
+                            </ul>
+                        </div>
+                        <div class="filter-group">
+                            <h4>Price</h4>
+                            <input type="range" min="0" max="500" value="200">
+                            <span>$0 - $500</span>
+                        </div>
+                    </aside>
+
+                    <div class="products-grid">
+
+                        <article class="product-card">
+                            <img src="https://images.unsplash.com/photo-1581655353564-df123a1eb820?ixlib=rb-4.0.3&auto=format&fit=crop&w=250&h=250&q=80"
+                                alt="Classic White T-Shirt" loading="lazy">
+                            <div class="product-info">
+                                <h3>Classic White T-Shirt</h3>
+                                <p class="price">$29</p>
+                                <button class="add-to-cart">Add to Cart</button>
+                            </div>
+                        </article>
+
+
+                        <article class="product-card">
+                            <img src="https://images.unsplash.com/photo-1551028719-00167b16eac5?ixlib=rb-4.0.3&auto=format&fit=crop&w=250&h=250&q=80"
+                                alt="Slim Fit Jeans" loading="lazy">
+                            <div class="product-info">
+                                <h3>Slim Fit Jeans</h3>
+                                <p class="price">$69</p>
+                                <button class="add-to-cart">Add to Cart</button>
+                            </div>
+                        </article>
+
+
+                        <article class="product-card">
+                            <img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?ixlib=rb-4.0.3&auto=format&fit=crop&w=250&h=250&q=80"
+                                alt="Leather Sneakers" loading="lazy">
+                            <div class="product-info">
+                                <h3>Leather Sneakers</h3>
+                                <p class="price">$129</p>
+                                <button class="add-to-cart">Add to Cart</button>
+                            </div>
+                        </article>
+
+
+                        <article class="product-card">
+                            <img src="https://images.unsplash.com/photo-1583743814966-8936f5b7be1a?ixlib=rb-4.0.3&auto=format&fit=crop&w=250&h=250&q=80"
+                                alt="Hoodie Sweatshirt" loading="lazy">
+                            <div class="product-info">
+                                <h3>Hoodie Sweatshirt</h3>
+                                <p class="price">$49</p>
+                                <button class="add-to-cart">Add to Cart</button>
+                            </div>
+                        </article>
+
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact-section" id="contact">
+            <div class="container">
+                <h2>Get in Touch</h2>
+                <form class="contact-form">
+                    <div class="form-group">
+                        <label for="name">Full Name</label>
+                        <input type="text" id="name" name="name" required placeholder="Enter your name">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required placeholder="your@email.com">
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" required
+                            placeholder="Tell us about your inquiry..."></textarea>
+                    </div>
+                    <button type="submit" class="submit-btn">Send Message</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h3>TrendWear</h3>
+                    <p>Premium fashion for modern lifestyles.</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#products">Products</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="social-links">
+                    <h4>Follow Us</h4>
+                    <div class="social-icons">
+                        <a href="#" aria-label="Instagram">📸</a>
+                        <a href="#" aria-label="Facebook">📘</a>
+                        <a href="#" aria-label="Twitter">🐦</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 TrendWear. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
